@@ -9,7 +9,7 @@ public class TestBanking {
 		pierwszyAccount.withdraw(47.62);
 		System.out.println("Saldo na koncie " + pierwszyAccount.getBalance());*/
 		
-		Customer klient = new Customer("Jane","Smith");	
+		Customer klient = new Customer("Jannette","Smith");	
 
 		System.out.println("czy wysz³o? - "+klient.getAccount().withdraw(150));
 		System.out.println("czy wysz³o? - "+klient.getAccount().withdraw(-150));
